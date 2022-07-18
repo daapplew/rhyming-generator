@@ -1,5 +1,5 @@
 *:root{
-    background-color: #E5E5E5;
+    background-color: #D9D9D9;
     color: #D9D9D9;
     
 }
@@ -19,14 +19,36 @@ color: #EC4747;
     margin: 20px;
 }
 
+#rhyme-input{
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    padding: 10px;
+}
+
 button {
     color: #EC4747;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    padding: 10px;
+}
+
+#rhyme-output{
+
+    background-color: #D9D9D9;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    justify-items: center;
+    
 }
 
 p {
-    
-    margin: 0 auto;
    
-    width: 30%;
-    color: #EC4747;
+    background-color: #EC4747;
+    border-radius: 10px;
+    margin: 5px auto;
+    padding: 10px;
+    width: 75%;
+    color: #D9D9D9;
+    text-align: center;
 }
